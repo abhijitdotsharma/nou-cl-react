@@ -1,3 +1,55 @@
-button {
-    font-size: 40px;
+
+.btn{
+    border-radius: .25rem;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    align-items: center;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+
 }
+
+.btn-blue{
+
+}
+
+
+/*
+This is handled in JSX, any better way?
+    variant solid
+    colorScheme color -> border and background-color
+    font-color -> dark
+
+    variant outline
+    colorScheme color -> border And fontcolor
+    background-color -> dark
+    
+    */
+
+.btn-solid{
+    
+}
+
+.btn-outline{  
+}
+
+.btn-xs{
+    font-size: 0.8rem;
+}
+
+.btn-sm{
+    font-size: 1rem;
+
+}
+
+.btn-md{
+    font-size: 1.2rem;
+}
+
+.btn-lg{
+    font-size: 1.4rem;
+}
+
+
