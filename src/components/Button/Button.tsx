@@ -1,5 +1,6 @@
 import React from "react";
-import "./Button.css";
+// import "./Button.css";
+import "../../index.css";
 
 export interface ButtonProps {
 
@@ -37,14 +38,7 @@ const Button = ({
 }: ButtonProps) => {
     return (
         <button 
-        style={{
-            border: `1px solid ${colorScheme}`,
-            backgroundColor: variant === "solid" ? colorScheme: "white",
-            color: variant === "solid"? "white" : colorScheme,
-        }}
-        className={
-            `btn btn-${variant} btn-${size}`
-        }
+        className='text-9xl'
         >
             {label}
         </button>
